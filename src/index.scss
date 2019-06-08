@@ -1,0 +1,68 @@
+// @import-normalize;
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Satisfy&display=swap');
+
+// Override default variables before the import
+// $body-bg: #000;
+$grid-columns: 24 !default;
+
+// Import Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap.scss';
+html,
+body {
+  font-family: 'Open Sans', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Satisfy', cursive;
+}
+
+button.primary {
+  border: 0;
+  border-radius: 0;
+  background: rgba(78, 127, 141, 1);
+  padding: 10px 15px;
+  margin: 0 5px;
+  font-size: 15px;
+  color: #fff;
+  font-family: 'Open Sans', Arial, sans-serif;
+  cursor: pointer;
+  &:hover {
+    background: rgba(78, 127, 141, 0.8);
+  }
+}
+
+button.secondary {
+  border: 0;
+  border-radius: 0;
+  // background: rgba(78, 127, 141, 1);
+  padding: 10px 15px;
+  margin: 0 5px;
+  font-size: 15px;
+  color: rgba(78, 127, 141, 1);
+  font-family: 'Open Sans', Arial, sans-serif;
+  cursor: pointer;
+  &:hover {
+    background: rgba(78, 127, 141, 0.8);
+  }
+}
