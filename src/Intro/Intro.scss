@@ -1,17 +1,19 @@
 @import '../style/media-queries';
+@import '../style/vars';
 
-.hero--content {
+.hero__content {
   //   max-width: 50%;
   //   margin: auto;
-  padding: 40px 35px;
-  margin-top: -60px;
+  padding: 20px 35px;
+
+  margin-top: -160px;
   background: #fff;
 
-  @include respond-above(sm) {
-    padding: 40px 60px;
+  @include respond-above(md) {
+    margin-top: -60px;
   }
 
   h2 {
-    color: rgba(217, 180, 165, 1);
+    color: rgba($pink, 1);
   }
 }
