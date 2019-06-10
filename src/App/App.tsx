@@ -3,6 +3,8 @@ import './App.css';
 import React from 'react';
 
 import About from './About/About';
+import Doula from './Doula/Doula';
+import Footer from './Footer/Footer';
 import Header from './Header/Header';
 import Intro from './Intro/Intro';
 import Offer from './Offer/Offer';
@@ -29,7 +31,7 @@ class App extends React.Component<{}, {}> {
         <div className="container-fluid">
           <div className="row justify-content-center">
             <div className="col-sm-22 col-md-18 col-lg-16 col-xl-14">
-              <Intro onAboutClick={this.handleAboutClick} />
+              <Intro />
             </div>
           </div>
         </div>
@@ -37,11 +39,19 @@ class App extends React.Component<{}, {}> {
         <Offer />
         <div className="container-fluid">
           <div className="row justify-content-center">
-            <div ref={this.about} className="col-sm-24 col-md-24 col-lg-20 col-xl-18">
+            <div id="about" className="col-sm-24 col-md-24 col-lg-20 col-xl-18">
               <About />
             </div>
           </div>
         </div>
+        <div className="container-fluid">
+          <div className="row justify-content-center">
+            <div id="doula" className="col-sm-24 col-md-24 col-lg-20 col-xl-18">
+              <Doula />
+            </div>
+          </div>
+        </div>
+        <Footer />
       </div>
     );
   }

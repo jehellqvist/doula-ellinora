@@ -1,0 +1,15 @@
+.footer {
+  background: url('../../assets/bertil-115.jpg') no-repeat center center;
+  background-size: cover;
+  height: 40vh;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  p,
+  h3 {
+    text-align: center;
+    color: #fff;
+  }
+}

@@ -1,9 +1,9 @@
-@import '../../style/media-queries';
-@import '../../style/vars';
+@import '../../../style/media-queries';
+@import '../../../style/vars';
 
 .offer__card {
   height: 260px;
-  background: url('../../assets/IMG_7253.JPG') no-repeat center center;
+  background: url('../../../assets/IMG_7253.JPG') no-repeat center center;
   background-size: cover;
   width: 100%;
 
@@ -21,7 +21,14 @@
     transition: all 0.2s ease-in-out;
   }
 
+  a {
+    width: 100%;
+    color: inherit;
+    text-decoration: none;
+    background-color: transparent;
+  }
   .offer__card__content {
+    margin: auto;
     background: rgba(250, 250, 250, 0.6);
     padding: 20px;
     width: 90%;
@@ -46,11 +53,11 @@
 }
 
 .offer__card--package {
-  background: url('../../assets/bertil-7.jpg') no-repeat center center;
+  background: url('../../../assets/bertil-7.jpg') no-repeat center center;
   background-size: cover;
 }
 
 .offer__card--talk {
-  background: url('../../assets/h.jpg') no-repeat center center;
+  background: url('../../../assets/h.jpg') no-repeat center center;
   background-size: cover;
 }

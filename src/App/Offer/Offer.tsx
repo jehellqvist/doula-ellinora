@@ -19,10 +19,10 @@ class Offer extends React.Component<{}, { details: 'package' | 'talk' | 'emergen
       this.setState({ details: 'none' });
     } else {
       this.setState({ details: type });
-      this.offerContent.current.scrollIntoView({
-        behavior: 'smooth',
-        block: 'start'
-      });
+      // this.offerContent.current.scrollIntoView({
+      //   behavior: 'smooth',
+      //   block: 'start'
+      // });
     }
   };
 
@@ -54,7 +54,7 @@ class Offer extends React.Component<{}, { details: 'package' | 'talk' | 'emergen
             </div>
           </div>
         </div>
-        <div ref={this.offerContent} className="offer__details">
+        <div id="offer-content" className="offer__details">
           <ReactCSSTransitionGroup
             transitionName="toggle"
             transitionAppear={true}

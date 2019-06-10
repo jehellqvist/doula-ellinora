@@ -1,9 +1,10 @@
 import './Intro.scss';
 
 import React from 'react';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 interface IntroProps {
-  onAboutClick: Function;
+  // onAboutClick: Function;
 }
 const Intro: React.FC<IntroProps> = props => {
   return (
@@ -15,10 +16,12 @@ const Intro: React.FC<IntroProps> = props => {
         gravida och eventuell partner de rätta förutsättningarna för att mota ett nytt liv till världen med lugn, trygghet och lycka. Att
         välja att ta stöd av en doula ökar sannolikheten för en såväl positiv graviditet- som förlossningsupplevelse.
       </p>
-      <button className="primary" onClick={() => props.onAboutClick()}>
-        Vem är doula ellinora?
-      </button>
-      <button className="secondary">Vad gör en doula?</button>
+      <AnchorLink href="#about">
+        <button className="primary">Vem är doula ellinora?</button>
+      </AnchorLink>
+      <AnchorLink href="#doula">
+        <button className="secondary">Vad gör en doula?</button>
+      </AnchorLink>
     </div>
   );
 };
