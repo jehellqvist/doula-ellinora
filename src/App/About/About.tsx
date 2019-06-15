@@ -1,6 +1,7 @@
 import './About.scss';
 
 import React from 'react';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const About: React.FC = () => {
   return (
@@ -10,7 +11,7 @@ const About: React.FC = () => {
       <div className="row">
         <div className="col-md-12 col-lg-8 align-self-center">
           <div className="img__container">
-            <img src={require('../../assets/ellinora.jpg')} alt="Bild på doula ellinora" />
+            <img src={require('../../assets/family.jpg')} alt="Bild på doula ellinora" />
           </div>
         </div>
         <div className="col-md-12 col-lg-16">
@@ -30,6 +31,9 @@ const About: React.FC = () => {
           </p>
         </div>
       </div>
+      <AnchorLink href="#contact">
+        <button className="about__btn primary">Kontakta mig för bokning eller info -></button>
+      </AnchorLink>
     </div>
   );
 };

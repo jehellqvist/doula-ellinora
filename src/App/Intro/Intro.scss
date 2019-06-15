@@ -2,16 +2,16 @@
 @import '../../style/vars';
 
 .hero__content {
-  padding: 20px 35px;
+  padding: 30px 45px 60px 45px;
 
-  margin-top: -160px;
+  margin-top: -100px;
   background: #fff;
 
   @include respond-above(md) {
-    margin-top: -60px;
+    margin-top: -100px;
   }
 
   h2 {
-    color: rgba($pink, 1);
+    // color: rgba($pink, 1);
   }
 }

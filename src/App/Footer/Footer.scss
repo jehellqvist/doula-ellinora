@@ -1,15 +1,23 @@
+@import '../../style/vars';
 .footer {
-  background: url('../../assets/bertil-115.jpg') no-repeat center center;
-  background-size: cover;
-  height: 40vh;
-  width: 100%;
-  padding: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  p,
-  h3 {
-    text-align: center;
-    color: #fff;
+  &__contact {
+    background: $blue;
+    // height: 20vh;
+    padding: 60px;
+    width: 100%;
+    // height: calc(60vh - 100px);
+    // margin: 0 50px;
+    // width: 100%;
+    // padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    p,
+    h3 {
+      text-align: center;
+      color: #fff;
+      margin: 0;
+      line-height: 1.5;
+    }
   }
 }

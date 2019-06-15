@@ -2,8 +2,11 @@
 @import '../../style/media-queries';
 
 .doula {
-  border: 1px solid $pink;
-  padding: 50px 20px 30px 20px;
+  &--what {
+    margin-top: 90px;
+  }
+  border: 1px solid $black;
+  padding: 30px 20px 30px 20px;
   margin: 60px 0;
   position: relative;
 
@@ -30,11 +33,11 @@
 
   h2,
   h3 {
-    color: darken($pink, 20%);
+    color: $black;
   }
   p,
   li {
-    color: darken($pink, 20%);
+    color: $black;
   }
 
   .img__container {
@@ -42,15 +45,30 @@
     height: 250px;
     overflow: hidden;
     margin: auto;
-    // margin-bottom: 40px;
+    margin-top: 20px;
     border-radius: 50%;
 
-    border: 2px dashed $pink;
+    border: 2px dashed $black;
     padding: 5px;
 
     @include respond-above(md) {
-      // margin-top: -40px;
-      // margin-bottom: 0px;
+      margin-top: 0px;
+      //margin-bottom: 0px;
+    }
+
+    &--what {
+      margin-bottom: 10px;
+    }
+    &--why {
+      margin-bottom: 10px;
+    }
+    &--who {
+      margin-bottom: 40px;
+
+      @include respond-above(md) {
+        //margin-top: -40px;
+        margin-bottom: 0px;
+      }
     }
 
     img {

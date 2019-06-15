@@ -33,7 +33,6 @@ class OfferCard extends React.Component<{ type: 'package' | 'talk' | 'emergency'
               <p>
                 <strong>600 SEK</strong>
               </p>
-              <p> Samtalstid 50 minuter.</p>
             </div>
           </AnchorLink>
         );

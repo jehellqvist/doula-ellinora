@@ -35,18 +35,17 @@ class App extends React.Component<{}, {}> {
             </div>
           </div>
         </div>
-        <br />
         <Offer />
         <div className="container-fluid">
           <div className="row justify-content-center">
-            <div id="about" className="col-sm-24 col-md-24 col-lg-20 col-xl-18">
+            <div id="about" className="col-sm-24 col-md-24 col-lg-24 col-xl-18">
               <About />
             </div>
           </div>
         </div>
         <div className="container-fluid">
           <div className="row justify-content-center">
-            <div id="doula" className="col-sm-24 col-md-24 col-lg-20 col-xl-18">
+            <div id="doula" className="col-sm-24 col-md-24 col-lg-24 col-xl-18">
               <Doula />
             </div>
           </div>

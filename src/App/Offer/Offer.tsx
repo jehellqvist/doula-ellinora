@@ -44,7 +44,7 @@ class Offer extends React.Component<{}, { details: 'package' | 'talk' | 'emergen
       <div className="offer__container-fluid">
         <div className="container-fluid">
           <div className="row justify-content-center">
-            <div className="col-sm-24 col-md-24 col-lg-20 col-xl-18">
+            <div className="col-sm-24 col-md-24 col-lg-24 col-xl-18">
               <div className="row">
                 <OfferCard type={'package'} toggleDetails={this.toggleDetails} />
                 <OfferCard type={'talk'} toggleDetails={this.toggleDetails} />
@@ -65,7 +65,7 @@ class Offer extends React.Component<{}, { details: 'package' | 'talk' | 'emergen
             {this.state.details !== 'none' ? (
               <div className="container-fluid offer__details--show">
                 <div className="row justify-content-center">
-                  <div className="col-sm-24 col-md-22 col-lg-20 col-xl-18">{this.getDetailContent(this.state.details)}</div>
+                  <div className="col-sm-24 col-md-22 col-lg-24 col-xl-18">{this.getDetailContent(this.state.details)}</div>
                 </div>
               </div>
             ) : (

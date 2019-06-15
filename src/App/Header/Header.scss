@@ -1,9 +1,15 @@
+@import '../../style/media-queries';
+
 .header--wrapper {
-  background: url('../../assets/bertil-47.jpg') no-repeat center center;
+  background: url('../../assets/pregnant/doula_mage.jpg') no-repeat center center;
   background-size: cover;
-  height: 80vh;
+  height: 40vh;
   width: 100%;
   padding: 20px;
+
+  @include respond-above(md) {
+    height: 55vh;
+  }
 }
 
 h1 {
