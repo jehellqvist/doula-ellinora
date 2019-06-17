@@ -34,11 +34,10 @@ p {
   line-height: 1.5;
   color: #333;
   a {
-    color: inherit;
+    color: $blue;
     text-decoration: underline;
     &:hover {
-      color: inherit;
-
+      color: $blue;
       text-decoration: none;
     }
   }
@@ -69,6 +68,10 @@ button {
   cursor: pointer;
   &:hover {
     transition: all 0.2s ease-in-out;
+  }
+  &:active,
+  &:focus {
+    outline: none;
   }
 }
 

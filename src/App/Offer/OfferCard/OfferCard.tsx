@@ -22,6 +22,7 @@ class OfferCard extends React.Component<{ type: 'package' | 'talk' | 'emergency'
               <p>
                 <em>Jag doular mina första födslar till reducerat pris så passa på att boka redan nu.</em>
               </p>
+              <button className="secondary">Läs mer</button>
             </div>
           </AnchorLink>
         );
@@ -33,6 +34,7 @@ class OfferCard extends React.Component<{ type: 'package' | 'talk' | 'emergency'
               <p>
                 <strong>600 SEK</strong>
               </p>
+              <button className="secondary">Läs mer</button>
             </div>
           </AnchorLink>
         );
@@ -44,6 +46,7 @@ class OfferCard extends React.Component<{ type: 'package' | 'talk' | 'emergency'
               <p>
                 <strong>3500 SEK</strong>
               </p>
+              <button className="secondary">Läs mer</button>
             </div>
           </AnchorLink>
         );

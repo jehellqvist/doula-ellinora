@@ -12,12 +12,25 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     p,
     h3 {
       text-align: center;
       color: #fff;
       margin: 0;
       line-height: 1.5;
+      a {
+        font-size: inherit;
+        text-decoration: underline;
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
+    a {
+      color: #fff;
+      font-size: 20px;
+      margin-top: 15px;
     }
   }
 }
