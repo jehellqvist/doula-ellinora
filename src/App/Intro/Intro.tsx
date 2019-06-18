@@ -12,7 +12,7 @@ const Intro: React.FC<IntroProps> = props => {
       <h2>
         Doula i trakterna av Jönköping, Linköping,
         <br />
-        Ulricehamn &amp; Värnamo
+        Borås &amp; Värnamo
       </h2>
       <p>
         Att vänta och föda barn kan vara det mest unika en människa är med om under en livstid. Att känna sig trygg såväl under graviditet

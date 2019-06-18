@@ -2,7 +2,7 @@
 @import '../../../style/vars';
 
 .offer__card {
-  height: 260px;
+  height: 16.25rem;
   background: url('../../../assets/pregnant/IMG_7253.JPG') no-repeat center center;
   background-size: cover;
   width: 100%;
@@ -13,10 +13,11 @@
   // flex-direction: column;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
-  padding: 20px 0;
-  margin-bottom: 20px;
+  padding: 1.25rem 0;
+  margin-bottom: 1.25rem;
+
   @include respond-above(sm) {
-    margin-bottom: 5px;
+    margin-bottom: 0.3125rem;
   }
 
   a {
@@ -26,37 +27,45 @@
     background-color: transparent;
   }
 
+  &:hover,
+  &:active {
+    .offer__card__content {
+      background: rgba(250, 250, 250, 0.85);
+      transition: all 0.2s ease;
+    }
+  }
   &__content {
+    transition: all 0.2s ease;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     margin: auto;
     background: rgba(250, 250, 250, 0.65);
-    padding: 20px;
+    padding: 1.25rem;
     width: 90%;
     height: 100%;
     text-align: center;
 
     h3 {
-      font-size: 25px;
+      font-size: 1.5625rem;
       font-family: 'Indie Flower', cursive;
     }
     p {
-      font-size: 13px;
-      margin-bottom: 5px;
+      font-size: 0.8125rem;
+      margin-bottom: 0.3125rem;
 
       &:first-of-type {
-        font-size: 15px;
+        font-size: 0.9375rem;
       }
     }
     em {
-      font-size: 13px;
+      font-size: 0.8125rem;
     }
     span {
       color: $blue;
       text-decoration: underline;
-      font-size: 14px;
+      font-size: 0.875rem;
       &:hover {
         text-decoration: none;
       }

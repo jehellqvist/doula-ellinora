@@ -32,7 +32,9 @@ const About: React.FC = () => {
         </div>
       </div>
       <AnchorLink href="#contact">
-        <button className="about__btn primary">Kontakta mig för bokning eller info</button>
+        <button className="about__btn primary">
+          Kontakta mig för bokning eller info <i className="fa fa-chevron-right" />
+        </button>
       </AnchorLink>
     </div>
   );

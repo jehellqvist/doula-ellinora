@@ -2,25 +2,25 @@
 @import '../../style/media-queries';
 
 .about {
-  border: 1px solid $blue;
-  padding: 50px 20px 30px 20px;
-  margin: 40px 0 0 0;
+  border: 0.0625rem solid $blue;
+  padding: 3.125rem 1.25rem 1.875rem 1.25rem;
+  margin: 2.5rem 0 0 0;
 
   @include respond-above(xs) {
-    padding: 50px 40px 30px 40px;
+    padding: 3.125rem 2.5rem 1.875rem 2.5rem;
   }
 
   h2 {
     position: absolute;
-    top: 20px;
-    left: 30px;
-    padding: 0 20px;
+    top: 1.25rem;
+    left: 1.875rem;
+    padding: 0 1.25rem;
     background: white;
     display: inline-block;
     color: $blue;
 
     @include respond-above(sm) {
-      left: 120px;
+      left: 7.5rem;
     }
   }
   p {
@@ -28,19 +28,19 @@
   }
 
   .img__container {
-    width: 250px;
-    height: 250px;
+    width: 15.625rem;
+    height: 15.625rem;
     overflow: hidden;
     margin: auto;
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
     border-radius: 50%;
 
-    border: 2px dashed $blue;
-    padding: 5px;
+    border: 0.125rem dashed $blue;
+    padding: 0.3125rem;
 
     @include respond-above(md) {
-      margin-top: -40px;
-      margin-bottom: 0px;
+      margin-top: -2.5rem;
+      margin-bottom: 0rem;
     }
 
     img {
@@ -53,7 +53,10 @@
 
   &__btn {
     position: absolute;
-    bottom: -20px;
-    right: 60px;
+    bottom: -1.25rem;
+    right: 3.75rem;
+    i {
+      padding-left: 0.625rem;
+    }
   }
 }

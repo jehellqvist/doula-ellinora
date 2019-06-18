@@ -30,7 +30,7 @@ body {
 }
 
 p {
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.5;
   color: #333;
   a {
@@ -50,19 +50,19 @@ h3 {
 }
 
 h2 {
-  font-size: 28px;
+  font-size: 1.75rem;
 
   @include respond-above(xs) {
-    font-size: 32px;
+    font-size: 2rem;
   }
 }
 
 button {
   border: 0;
   border-radius: 0;
-  padding: 10px 15px;
-  margin: 0 5px;
-  font-size: 15px;
+  padding: 0.625rem 0.9375rem;
+  margin: 0 0.3125rem;
+  font-size: 0.9375rem;
   font-family: 'Open Sans', Arial, sans-serif;
   transition: all 0.2s ease-in-out;
   cursor: pointer;
@@ -94,6 +94,6 @@ button.secondary {
     text-decoration: none;
   }
   &:not(first-of-type) {
-    margin-top: 10px;
+    margin-top: 0.625rem;
   }
 }

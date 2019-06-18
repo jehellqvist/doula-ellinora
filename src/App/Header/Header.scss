@@ -1,13 +1,13 @@
 @import '../../style/media-queries';
+@import '../../style/vars';
 
 .header--wrapper {
-  background: url('../../assets/pregnant/doula_mage.jpg') no-repeat center center;
+  background: url('../../assets/pregnant/john-looy-755994-unsplash.jpg') no-repeat center center;
   background-size: cover;
-  filter: grayscale(100%);
 
   height: 40vh;
   width: 100%;
-  padding: 20px;
+  padding: 1.25rem;
 
   @include respond-above(md) {
     height: 55vh;
@@ -15,7 +15,7 @@
 }
 
 h1 {
-  // margin: 20px 0 0 0;
-  font-size: 30px;
-  color: #fff;
+  // margin: 1.25rem 0 0 0;
+  font-size: 1.875rem;
+  color: $blue;
 }
