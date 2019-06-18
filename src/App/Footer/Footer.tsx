@@ -14,6 +14,12 @@ const Footer: React.FC = () => {
           <i className="fab fa-instagram" />
         </a>
       </div>
+      <div className="footer__credits">
+        <p>
+          Bilderna på sidan är tagna av doulaellinora och
+          <a href="http://www.wanderings.se/"> www.wanderings.se</a>
+        </p>
+      </div>
     </React.Fragment>
   );
 };

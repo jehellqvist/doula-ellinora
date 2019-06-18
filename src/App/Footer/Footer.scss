@@ -1,18 +1,19 @@
 @import '../../style/vars';
+@import '../../style/media-queries';
+
 .footer {
   &__contact {
     background: $blue;
-    // height: 20vh;
-    padding: 3.75rem;
+    padding: 60px 20px 40px 20px;
     width: 100%;
-    // height: calc(60vh - 6.25rem);
-    // margin: 0 3.125rem;
-    // width: 100%;
-    // padding: 1.25rem;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+
+    @include respond-above(md) {
+      padding: 60px 60px 40px 60px;
+    }
     p,
     h3 {
       text-align: center;
@@ -29,8 +30,32 @@
     }
     a {
       color: #fff;
-      font-size: 1.25rem;
+      font-size: 1.875rem;
       margin-top: 0.9375rem;
+    }
+  }
+}
+.footer__credits {
+  //height: 30px;
+  padding: 20px;
+
+  background-color: darken($blue, 10%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  p {
+    text-align: center;
+    font-style: italic;
+    font-size: 0.8125rem;
+    margin: 0;
+    color: darken(#fff, 10%);
+    a {
+      color: darken(#fff, 10%);
+      &:hover {
+        color: darken(#fff, 10%);
+        text-decoration: none;
+      }
     }
   }
 }
