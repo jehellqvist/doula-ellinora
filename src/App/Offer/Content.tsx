@@ -22,7 +22,7 @@ export const packageContent = () => {
       <p>
         <strong>Ordinarie 7000 SEK</strong>
         <br />
-        <em>Jag doular mina första födslar till reducerat pris så passa på att boka redan nu.</em>
+        <em> Jag doular mina första födslar till reducerat pris och erbjuder 20% rabatt på bokningar tom 1/9.</em>{' '}
       </p>
       <hr />
       <p>
@@ -54,6 +54,14 @@ export const packageContent = () => {
 };
 
 export const emergencyContent = () => {
+  // reducer function  0 // initial accumulator value);
+
+  const colorize = ({ color, inverted, isSelected }: any) => {
+    console.log(color, inverted, isSelected);
+    //colorize html element};colorize({color: ”green”, inverted: true, isSelected: false)
+  };
+
+  colorize({ color: 'green', inverted: true, isSelected: false });
   return (
     <div className="offer__content">
       <h3>Akutdoula</h3>

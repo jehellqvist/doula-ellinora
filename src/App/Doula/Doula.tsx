@@ -40,9 +40,9 @@ const Doula: React.FC = () => {
           <div className="col-md-12 col-lg-16 align-self-center">
             <p>
               Alla! Kanske är du förstagångsförälder? Kanske har du en dålig förlossningsupplevelse i bagaget? Kanske har du en positiv
-              förlossningsupplevelse i bagaget och säkra upp för att kommande förlossning ska bli lika bra eller ännu bättre? Kanske föder
-              du vaginalt eller med kejsarsnitt. Kanske vill du ha all smärtlindring som finns? Kanske vill du föda helt naturligt? Jag
-              hjälper och stödjer dig utifrån vem du och eventuell partner är.
+              förlossningsupplevelse i bagaget och vill öka sannolikheten för att kommande förlossning ska bli lika bra eller ännu bättre?
+              Kanske föder du vaginalt eller med kejsarsnitt? Kanske vill du ha all smärtlindring som finns? Kanske vill du föda helt
+              naturligt? Jag hjälper och stödjer dig utifrån vem du och eventuell partner är.
             </p>
           </div>
         </div>

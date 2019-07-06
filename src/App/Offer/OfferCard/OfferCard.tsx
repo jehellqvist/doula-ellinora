@@ -17,10 +17,13 @@ class OfferCard extends React.Component<{ type: 'package' | 'talk' | 'emergency'
             <div className="offer__card__content">
               <h3>Doulapaket</h3>
               <p>
-                <strong>Ordinarie 7000 SEK</strong>
+                <strong>9500 SEK</strong>
               </p>
               <p>
-                <em>Jag doular mina första födslar till reducerat pris så passa på att boka redan nu.</em>
+                <em>
+                  Jag doular mina första födslar till reducerat pris och erbjuder 20% rabatt på bokningar tom 1/9.
+                  <br />
+                </em>
               </p>
               <button className="secondary">Läs mer</button>
             </div>
