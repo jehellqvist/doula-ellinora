@@ -2,7 +2,7 @@
 @import '../../style/vars';
 
 .header--wrapper {
-  background: url('../../assets/pregnant/john-looy-755994-unsplash.jpg') no-repeat center center;
+  background: url('../../assets/doula-ellinora-cover.jpg') no-repeat center center;
   background-size: cover;
 
   height: 40vh;
@@ -17,5 +17,10 @@
 h1 {
   // margin: 1.25rem 0 0 0;
   font-size: 1.875rem;
+}
+
+.logotype {
+  font-size: 1.875rem;
   color: $blue;
+  font-family: 'Indie Flower', cursive;
 }

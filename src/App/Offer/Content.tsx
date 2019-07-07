@@ -54,14 +54,6 @@ export const packageContent = () => {
 };
 
 export const emergencyContent = () => {
-  // reducer function  0 // initial accumulator value);
-
-  const colorize = ({ color, inverted, isSelected }: any) => {
-    console.log(color, inverted, isSelected);
-    //colorize html element};colorize({color: ”green”, inverted: true, isSelected: false)
-  };
-
-  colorize({ color: 'green', inverted: true, isSelected: false });
   return (
     <div className="offer__content">
       <h3>Akutdoula</h3>

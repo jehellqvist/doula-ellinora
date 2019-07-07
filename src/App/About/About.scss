@@ -54,9 +54,12 @@
   &__btn {
     position: absolute;
     bottom: -1.25rem;
-    right: 3.75rem;
     i {
       padding-left: 0.625rem;
+    }
+
+    @include respond-above(xs) {
+      right: 3.75rem;
     }
   }
 }

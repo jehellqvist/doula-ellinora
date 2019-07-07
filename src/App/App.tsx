@@ -28,21 +28,21 @@ class App extends React.Component<{}, {}> {
     return (
       <div>
         <Header />
-        <div className="container-fluid">
+        <section className="container-fluid">
           <div className="row justify-content-center">
             <div className="col-sm-22 col-md-18 col-lg-16 col-xl-14">
               <Intro />
             </div>
           </div>
-        </div>
+        </section>
         <Offer />
-        <div className="container-fluid">
+        <section className="container-fluid">
           <div className="row justify-content-center">
             <div id="about" className="col-sm-24 col-md-24 col-lg-24 col-xl-18">
               <About />
             </div>
           </div>
-        </div>
+        </section>
         <div className="container-fluid">
           <div className="row justify-content-center">
             <div id="doula" className="col-sm-24 col-md-24 col-lg-24 col-xl-18">

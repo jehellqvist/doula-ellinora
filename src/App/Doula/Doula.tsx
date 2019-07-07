@@ -5,7 +5,7 @@ import React from 'react';
 const Doula: React.FC = () => {
   return (
     <React.Fragment>
-      <div className="container-fluid doula doula--what">
+      <section className="container-fluid doula doula--what">
         <h2>Vad gör en doula?</h2>
         <div className="row">
           <div className="col-md-12 col-lg-16 align-self-center">
@@ -23,18 +23,18 @@ const Doula: React.FC = () => {
           </div>
           <div className="col-md-12 col-lg-8 align-self-center">
             <div className="img__container img__container--what">
-              <img src={require('../../assets/bertil-129.jpg')} alt="Bild på doula ellinora" />
+              <img src={require('../../assets/doula-ellinora-what.jpg')} alt="Bild på doula ellinora" />
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
-      <div className="container-fluid doula doula--who">
+      <section className="container-fluid doula doula--who">
         <h2 className="left">Vem behöver en doula?</h2>
         <div className="row">
           <div className="col-md-12 col-lg-8 align-self-center">
             <div className="img__container img__container--who">
-              <img src={require('../../assets/bertil-98.jpg')} alt="Bild på doula ellinora" />
+              <img src={require('../../assets/doula-ellinora-who.jpg')} alt="Bild på doula ellinora" />
             </div>
           </div>
           <div className="col-md-12 col-lg-16 align-self-center">
@@ -46,8 +46,8 @@ const Doula: React.FC = () => {
             </p>
           </div>
         </div>
-      </div>
-      <div className="container-fluid doula doula--why">
+      </section>
+      <section className="container-fluid doula doula--why">
         <h2>Varför doula?</h2>
         <div className="row">
           <div className="col-md-12 col-lg-16 align-self-center">
@@ -71,11 +71,11 @@ const Doula: React.FC = () => {
           </div>
           <div className="col-md-12 col-lg-8 align-self-center">
             <div className="img__container img__container--why">
-              <img src={require('../../assets/pregnant/IMG_7257.JPG')} alt="Bild på doula ellinora" />
+              <img src={require('../../assets/doula-ellinora-why.jpg')} alt="Bild på doula ellinora" />
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </React.Fragment>
   );
 };

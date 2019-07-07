@@ -9,7 +9,7 @@ interface IntroProps {
 const Intro: React.FC<IntroProps> = props => {
   return (
     <div className="hero__content">
-      <h2>Doula i trakterna av Borås, Göteborg &amp; Jönköping</h2>
+      <h1>Doula i trakterna av Borås, Göteborg &amp; Jönköping</h1>
       <p>
         Att vänta och föda barn kan vara det mest unika en människa är med om under en livstid. Att känna sig trygg såväl under graviditet
         som förlossning borde vara en mänsklig rättighet. Den svenska mödra- och förlossningsvården har idag sällan möjlighet att ge den

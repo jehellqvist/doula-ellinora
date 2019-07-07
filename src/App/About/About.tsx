@@ -11,7 +11,7 @@ const About: React.FC = () => {
       <div className="row">
         <div className="col-md-12 col-lg-8 align-self-center">
           <div className="img__container">
-            <img src={require('../../assets/family.jpg')} alt="Bild på doula ellinora" />
+            <img src={require('../../assets/doula-ellinora-family.jpg')} alt="Bild på doula ellinora" />
           </div>
         </div>
         <div className="col-md-12 col-lg-16">
