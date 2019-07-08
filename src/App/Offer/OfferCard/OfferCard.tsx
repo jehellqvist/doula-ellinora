@@ -35,7 +35,7 @@ class OfferCard extends React.Component<{ type: 'package' | 'talk' | 'emergency'
             <div className="offer__card__content">
               <h3>Enstaka samtal</h3>
               <p>
-                <strong>600 SEK</strong>
+                <strong>800 SEK</strong>
               </p>
               <button className="secondary">Läs mer</button>
             </div>
