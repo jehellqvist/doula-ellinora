@@ -27,6 +27,10 @@ class App extends React.Component<{}, {}> {
   render() {
     return (
       <div>
+        {/* <Helmet>
+          <meta property="og:image" content={facebookImg} />
+          <meta name="twitter:image" content={twitterImg} />
+        </Helmet> */}
         <Header />
         <section className="container-fluid">
           <div className="row justify-content-center">
