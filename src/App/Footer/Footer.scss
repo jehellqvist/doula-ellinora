@@ -20,6 +20,9 @@
       color: #fff;
       margin: 0;
       line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      font-family: 'Open Sans', Arial, sans-serif;
       a {
         font-size: inherit;
         text-decoration: underline;

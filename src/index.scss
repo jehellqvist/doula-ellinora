@@ -1,6 +1,7 @@
 // @import-normalize;
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Satisfy&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower|Neuton&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap');
 // Override default variables before the import
 // $body-bg: #000;
 $grid-columns: 24 !default;
@@ -13,7 +14,8 @@ $grid-columns: 24 !default;
 html,
 body {
   font-family: 'Open Sans', Arial, sans-serif;
-  // font-family: 'Georgia', 'Times New Roman', Times, serif;
+  color: #333;
+
   margin: 0;
   padding: 0;
   height: 100%;
@@ -46,7 +48,8 @@ p {
 h1,
 h2,
 h3 {
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Abril Fatface', cursive;
+  color: #333;
 }
 
 h2 {
